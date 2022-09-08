@@ -1,5 +1,5 @@
 ### CONSTRUCCION DEL MAPA GENETICO ###
-
+library(ASMap)
 
 cross1<-read.cross(format="csv", file = "~/tgbs_data/Genotype_corrector/CR_60/60_2/60_OK/F2_ABHcorrected_final_sin_parentales.csv",
                    estimate.map = FALSE)
